@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://leaderboard-app-oekh.onrender.com", // adjust port if needed
+  baseURL: "https://leaderboard-app-oekh.onrender.com/api", // adjust port if needed
 });
 
 // Users
